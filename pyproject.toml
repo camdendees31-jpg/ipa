@@ -1,0 +1,14 @@
+[tool.briefcase]
+project_name = "My App"
+bundle = "com.yourname"
+version = "0.0.1"
+author = "Your Name"
+author_email = "you@email.com"
+
+[tool.briefcase.app.myapp]
+formal_name = "My App"
+description = "My Python iOS App"
+sources = ["src/myapp"]
+
+[tool.briefcase.app.myapp.iOS]
+supported = true
